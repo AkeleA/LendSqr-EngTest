@@ -14,25 +14,31 @@ div.user-table {
 div.header-row {
   display: flex;
   position: absolute;
-  left: 30px;
-  top: 30px;
+  width: 977px;
+  height: 578px;
+  margin: 30px;
   flex-direction: row;
   gap: 35px;
   justify-content: space-between;
 }
 
+div.data-row {
+  display: flex;
+  flex-direction: row;
+  row-gap: 35px;
+}
+
 div.cell1 {
-  position: absolute;
   width: 116px;
   height: 571px;
-  left: 0;
-  top: 52px;
 }
 
 div.cell2 {
-  position: absolute;
   width: 106px;
   height: 571px;
-  top: 52px;
-  left: 151px;
+}
+
+div.cell3 {
+  width: 147px;
+  height: 571px;
 }

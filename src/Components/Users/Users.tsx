@@ -87,10 +87,10 @@ const UserTable = () => {
         <div key={user.id} className="data-row">
           <div className="cell1">{user.orgName}</div>
           <div className="cell2">{user.userName}</div>
-          {/**<div className="cell3">{user.email}</div>
+          <div className="cell3">{user.email}</div>
           <div className="cell4">{user.phoneNumber}</div>
           <div className="cell5">{user.createdAt}</div>
-      <div className="cell6">{user.lastActiveDate}</div> **/}
+          <div className="cell6">{user.lastActiveDate}</div>
         </div>
       ))}
       <div className="pagination">
