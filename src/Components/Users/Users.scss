@@ -1,0 +1,38 @@
+div.user-table {
+  box-sizing: border-box;
+  position: absolute;
+  width: 1037px;
+  height: 640px;
+  left: 343px;
+  top: 428px;
+  background: #ffffff;
+  border: 1px solid rgba(33, 63, 125, 0.06);
+  box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
+  border-radius: 4px;
+}
+
+div.header-row {
+  display: flex;
+  position: absolute;
+  left: 30px;
+  top: 30px;
+  flex-direction: row;
+  gap: 35px;
+  justify-content: space-between;
+}
+
+div.cell1 {
+  position: absolute;
+  width: 116px;
+  height: 571px;
+  left: 0;
+  top: 52px;
+}
+
+div.cell2 {
+  position: absolute;
+  width: 106px;
+  height: 571px;
+  top: 52px;
+  left: 151px;
+}

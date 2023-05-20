@@ -1,0 +1,193 @@
+div.pagetop {
+  position: relative;
+  width: 1440px;
+  height: 900px;
+  background: #ffffff;
+}
+
+///need to check the font again. Doesn't look like the one on figma
+
+div.lendicon {
+  position: absolute;
+  width: 173.76px;
+  height: 36px;
+  left: 97px;
+  top: 106px;
+
+  img.img1 {
+    position: absolute;
+    width: 24.75px;
+    height: 25px;
+    left: 0px;
+    top: 1.67px;
+  }
+
+  img.img2 {
+    position: absolute;
+    width: 138.44px;
+    height: 36px;
+    left: 35.33px;
+    top: 0;
+  }
+}
+
+img.logimage {
+  position: absolute;
+  width: 600px;
+  height: 337.57px;
+  left: 67px;
+  top: 281px;
+}
+
+form.formstyle {
+  position: absolute;
+  width: 704px;
+  height: 900px;
+  left: 736px;
+  top: -5px;
+}
+
+h1.topmessage {
+  position: absolute;
+  width: 183px;
+  height: 55px;
+  left: 100px;
+  top: 220px;
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 55px;
+  letter-spacing: -0.04em;
+  color: #213f7d;
+}
+
+p.subtext {
+  position: absolute;
+  width: 194px;
+  height: 28px;
+  left: 100px;
+  top: 285px;
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #545f7d;
+}
+
+input.emailinput {
+  box-sizing: border-box;
+  position: absolute;
+  width: 447px;
+  height: 50px;
+  left: 100px;
+  top: 368px;
+  background: #ffffff;
+  border: 2px solid rgba(84, 95, 125, 0.15);
+  border-radius: 5px;
+}
+
+input.emailinput::placeholder {
+  position: absolute;
+  width: 36px;
+  height: 20px;
+  left: 16px;
+  top: 17.5px;
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+  color: #545f7d;
+  opacity: 0.6;
+}
+
+input.passinput {
+  box-sizing: border-box;
+  position: absolute;
+  width: 447px;
+  height: 50px;
+  left: 100px;
+  top: 442px;
+  background: #ffffff;
+  border: 2px solid rgba(84, 95, 125, 0.15);
+  border-radius: 5px;
+}
+
+input.passinput::placeholder {
+  position: absolute;
+  width: 77.64px;
+  height: 14.17px;
+  left: 16px;
+  top: 17px;
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #545f7d;
+  opacity: 0.6;
+}
+
+button.magic {
+  position: absolute;
+  width: 49.41px;
+  height: 12.5px;
+  left: 479.95px;
+  border: none;
+  background: none;
+  top: 460px;
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #39cdcc;
+}
+
+a.mmnemosyne {
+  position: absolute;
+  width: 157px;
+  height: 17px;
+  left: 100px;
+  top: 521px;
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  color: #39cdcc;
+  text-decoration: none;
+}
+
+button.loginbutton {
+  position: absolute;
+  left: 100px;
+  top: 568px;
+  width: 447px;
+  height: 48px;
+  background: #39cdcc;
+  border: none;
+  border-radius: 8px;
+}
+
+button span.buttontext {
+  position: absolute;
+  top: 15px;
+  left: 196.03px;
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
