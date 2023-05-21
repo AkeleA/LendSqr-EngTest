@@ -24,8 +24,7 @@ div.header-row {
 
 div.data-row {
   display: flex;
-  flex-direction: row;
-  row-gap: 35px;
+  justify-content: space-between;
 }
 
 div.cell1 {

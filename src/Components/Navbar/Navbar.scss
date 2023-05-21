@@ -1,0 +1,48 @@
+div.top-nav {
+  position: absolute;
+  width: 1440px;
+  height: 100px;
+  left: 0px;
+  top: 0px;
+}
+
+div.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 8.81px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  width: 144.8px;
+  height: 30px;
+}
+
+img.navicon {
+  width: 20.62px;
+  height: 20.84px;
+}
+
+img.navname {
+  width: 115.37px;
+  height: 30px;
+}
+
+form.search-bar {
+  position: absolute;
+  top: 30px;
+  left: 343px;
+}
+
+input.search-input {
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 400px;
+  height: 40px;
+  background: #ffffff;
+  opacity: 0.2;
+  border: 1px solid #213f7d;
+  border-radius: 8px;
+}

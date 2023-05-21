@@ -1,4 +1,5 @@
 import React from "react";
+import Navbar from "../../Components/Navbar/Navbar";
 import UserTable from "../../Components/Users/Users";
 import "./Dashboard.scss";
 
@@ -7,6 +8,7 @@ type Props = {};
 const Dashboard = (props: Props) => {
   return (
     <div className="topdash">
+      <Navbar />
       <h1 className="userhead">Users</h1>
       <div className="first">
         <h3 className="firsttitle">USERS</h3>
